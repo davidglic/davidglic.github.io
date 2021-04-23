@@ -1,0 +1,21 @@
+html {
+    font-family: 'EB Garamond', serif;
+    }
+    
+body {
+    background-image: url(paper.jpg);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container {
+    width: 40vw;
+    height: 40vh;
+}
+
+/* 
+Image License
+https://pixabay.com/service/license/, */
