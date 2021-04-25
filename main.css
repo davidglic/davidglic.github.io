@@ -1,21 +1,155 @@
 html {
     font-family: 'EB Garamond', serif;
-    }
+
+}
+
     
 body {
     background-image: url(paper.jpg);
+    color: #210F04;
+
+
 }
-main {
+/* List style */
+ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.container {
-    width: 40vw;
-    height: 40vh;
+    flex-direction: column;
+    justify-content:space-around;
+    flex-grow:1;
+    padding: none;
+    margin-left: -4vw;
 }
 
+/* header styling */
+header {
+    color: #690500;
+
+
+}
+header h1 {
+    font-size: 55px;
+    color: #210F04;
+    margin-bottom: 0px;
+}
+header h4 {
+    margin-top: -8px;
+    margin-left: 169px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Subject container sytling */
+.container {
+    width: 42vw;
+    height: fit-content;
+    max-width: 484px;
+    max-height: 484px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+    font-size: 2vw;
+
+}
+.container h2{
+    color: #452103;
+    margin-left: 10%;
+    font-size: 210%;
+    margin-bottom: 0;
+
+}
+/* drop cap styling */
+.drop-cap{
+    float: left;
+    font-size:300%;
+    color:#690500;
+    line-height: 85%;
+    
+}
+.drop-cap-list{
+    float: left;
+    font-size:175%;
+    color:#690500;
+    line-height: 100%;
+    
+}
+/* link styling */
+a {
+    color: #210F04;
+  
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+@media only screen and (min-width: 1200px) {
+    /* font styling goes out of wack much oboce 1200px */
+    /* maybe switch this out with some Javascript later? */
+    .container {
+        font-size: 24px;
+    }
+}
+/* Styling for tablet/phone */
+@media only screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        flex-wrap: nowrap;  
+        flex-grow: 1;
+
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .container {
+        width: 65vw;
+        height:fit-content ;
+        max-width: 484px;
+        max-height: 484px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-content:flex-end;
+        font-size: 2vh;
+        min-width: 320px;
+    }
+    ul {
+        margin-left: -6vw;
+    }   
+    .contact {
+        order: 1;
+    }
+
+}
 /* 
 Image License
 https://pixabay.com/service/license/, */
+/* pallete
+red blood #690500
+other red #cf1002;
+darkishbrown #452103
+ smoky black #210F04
+ saddle brown #934B00
+yellow brown #BB6B00 
+ */
+ /* classes:
+ .drop-cap
+ .drop-cap-list
+ .title
+ .about
+ .projects
+ .contact
+ .skills
+ .container */
