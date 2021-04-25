@@ -17,8 +17,8 @@ ul {
     flex-direction: column;
     justify-content:space-around;
     flex-grow:1;
-    padding: none;
-    margin-left: -4vw;
+    padding: 0;
+
 }
 
 /* header styling */
@@ -125,9 +125,7 @@ a:hover {
         font-size: 2vh;
         min-width: 320px;
     }
-    ul {
-        margin-left: -6vw;
-    }   
+   
     .contact {
         order: 1;
     }
