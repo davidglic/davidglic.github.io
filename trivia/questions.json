@@ -1,0 +1,6 @@
+let questionList = [
+    ["What is your name?","Sir Robin","Sir David","King Aurthur", "Sir Lancelot", 1],
+    ["What is your quest?", "To become famous", "To defeat the French", "To find the Holy Grail", "To reach Camelot", 2],
+    ["What is your favorite color?","Blue","Red","Green", "Orange", 0],
+    ["What is the average flight speed of an unladen European swallow?","33 MPH","15 MPH","62 MPH", "24 MPH", 3]
+    ]
